@@ -20,7 +20,13 @@
     Click me to display the Date and Time.
   </button>
 
-  <p id="demo"></p>
+  <p>Time now is: <span id="demo"></span></p>
+
+  <h2>JAVASCRIPT can change an HTML Attribute Value</h2>
+
+  <button onclick="document.getElementById('lightBulb').src='images/RBSLicon_Bulb_on.png' ">Turn on the light</button>
+  <img id="lightBulb" src="images/RBSLicon_Bulb_on.png" alt="on">
+  <button onclick="document.getElementById('lightBulb').src='images/RBSLicon_Bulb_off.png' ">Turn off the light</button>
 
   <script src="./javascript/javascript.js"></script>
 </body>
